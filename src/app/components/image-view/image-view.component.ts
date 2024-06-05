@@ -1,8 +1,8 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { Scenes } from '../../mock-data/constants';
 import { Scene } from '../../models/scene';
 import { NavigationButtonComponent } from './navigation-button/navigation-button.component';
 import { CommonModule } from '@angular/common';
+import SceneData from '../../../assets/mock-data.json';
 
 @Component({
   selector: 'app-image-view',
@@ -12,11 +12,12 @@ import { CommonModule } from '@angular/common';
   styleUrl: './image-view.component.scss'
 })
 export class ImageViewComponent {
-  scenes: Scene[] = Scenes;
+  scenes: Scene[] = [];
   currentScene!: Scene;
   @ViewChild('imageContainer') imageContainer?: ElementRef;
 
   constructor() {
+    this.scenes = SceneData as Scene[]; // Type cast json data
     this.currentScene = this.scenes[0];
   }
 
