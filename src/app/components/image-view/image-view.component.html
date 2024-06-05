@@ -1,1 +1,17 @@
-<p>image-view works!</p>
+<div class="overlay">
+    <div #imageContainer class="container">
+        <img [src]="currentScene.backgroundUrl" alt="trail image">
+
+        <ng-container *ngFor="let hitzone of currentScene.hitzones">
+            <app-navigation-button [currentScene]="currentScene" [currentHitzone]="hitzone"
+                (onNavigate)="onNavigate($event)"></app-navigation-button>
+        </ng-container>
+    </div>
+
+    <button class="scroll-btn scroll-left" (click)="scrollContainer(-150)">
+        <i class="arrow left"></i>
+    </button>
+    <button class="scroll-btn scroll-right" (click)="scrollContainer(150)">
+        <i class="arrow right"></i>
+    </button>
+</div>

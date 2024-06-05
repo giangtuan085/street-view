@@ -1,0 +1,18 @@
+button.navigation {
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navigation {
+    margin: 0;
+    border-radius: 50%;
+    padding: 15px 20px;
+    background: #f1f0f0;
+    border: 3px solid #fff;
+    position: absolute;
+
+    &:hover {
+        background-color: #dbd8d8;
+    }
+}

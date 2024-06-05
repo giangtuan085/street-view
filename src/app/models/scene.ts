@@ -7,7 +7,7 @@ export interface Scene {
 }
 
 export interface Hitzone {
-    x: number; // x-axis percentage
-    y: number; // y-axis percentage
     goto: number; // id of the destined scene
+    y: number; // y position for navigation button
+    x: number; // x position for navigation button
 }

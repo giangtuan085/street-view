@@ -1,0 +1,4 @@
+<button class="navigation" [ngStyle]="{ left: currentHitzone.x + 'px', top: currentHitzone.y + 'px' }"
+    (click)="onClick()">
+    <i class="arrow" [ngClass]="currentHitzone.goto > currentScene.id ? 'up' : 'down'"></i>
+</button>

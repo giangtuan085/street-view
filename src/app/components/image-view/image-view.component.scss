@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+    overflow: auto;
+}
+
+.overlay {
+    position: relative;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* show scroll buttons for small screen and mobile*/
+@media only screen and (max-width: 1366px) {
+    button.scroll-btn {
+        display: initial !important;
+    }
+}
+
+button.scroll-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+
+    &.scroll-left {
+        left: 2%;
+    }
+
+    &.scroll-right {
+        right: 2%;
+    }
+
+    .arrow {
+        border-width: 0 7px 7px 0;
+        padding: 6px;
+    }
+}

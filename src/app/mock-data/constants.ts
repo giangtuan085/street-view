@@ -3,161 +3,161 @@ import { Scene } from "../models/scene";
 export const Scenes: Scene[] = [
     {
         id: 1,
-        backgroundUrl: '1.jpg',
+        backgroundUrl: 'assets/1.jpg',
         hitzones: [
             {
-                x: 30,
-                y: 100,
-                goto: 2
+                goto: 2,
+                x: 400,
+                y: 110
             }
         ]
     },
     {
         id: 2,
-        backgroundUrl: '2.jpg',
+        backgroundUrl: 'assets/2.jpg',
         hitzones: [
             {
-                x: 30,
-                y: 100,
-                goto: 3
+                goto: 3,
+                x: 450,
+                y: 110
             },
             {
-                x: 100,
-                y: 100,
-                goto: 1
+                goto: 1,
+                x: 1150,
+                y: 210
             }
         ]
     },
     {
         id: 3,
-        backgroundUrl: '3.jpg',
+        backgroundUrl: 'assets/3.jpg',
         hitzones: [
             {
-                x: 50,
-                y: 100,
-                goto: 4
+                goto: 4,
+                x: 250,
+                y: 110
             },
             {
-                x: 100,
-                y: 100,
-                goto: 2
+                goto: 2,
+                x: 1400,
+                y: 200
             }
         ]
     },
     {
         id: 4,
-        backgroundUrl: '4.jpg',
+        backgroundUrl: 'assets/4.jpg',
         hitzones: [
             {
-                x: 50,
-                y: 100,
-                goto: 5
+                goto: 5,
+                x: 450,
+                y: 110
             },
             {
-                x: 100,
-                y: 100,
-                goto: 3
+                goto: 3,
+                x: 1350,
+                y: 180
             }
         ]
     },
     {
         id: 5,
-        backgroundUrl: '5.jpg',
+        backgroundUrl: 'assets/5.jpg',
         hitzones: [
             {
-                x: 50,
-                y: 100,
-                goto: 6
+                goto: 6,
+                x: 290,
+                y: 110
             },
             {
-                x: 100,
-                y: 100,
-                goto: 4
+                goto: 4,
+                x: 1300,
+                y: 170
             }
         ]
     },
     {
         id: 6,
-        backgroundUrl: '6.jpg',
+        backgroundUrl: 'assets/6.jpg',
         hitzones: [
             {
-                x: 33,
-                y: 100,
-                goto: 5
+                goto: 5,
+                x: 230,
+                y: 110
             },
             {
-                x: 66,
-                y: 100,
-                goto: 7
+                goto: 7,
+                x: 860,
+                y: 210
             },
             {
-                x: 100,
-                y: 100,
-                goto: 8
+                goto: 8,
+                x: 1510,
+                y: 110
             }
         ]
     },
     {
         id: 7,
-        backgroundUrl: '7-house.jpg',
+        backgroundUrl: 'assets/7-house.jpg',
         hitzones: [
             {
-                x: 40,
-                y: 100,
-                goto: 6
+                goto: 6,
+                x: 340,
+                y: 110
             }
         ]
     },
     {
         id: 8,
-        backgroundUrl: '8-C.jpg',
+        backgroundUrl: 'assets/8-C.jpg',
         hitzones: [
             {
-                x: 33,
-                y: 100,
-                goto: 6
+                goto: 6,
+                x: 490,
+                y: 175
             },
             {
-                x: 66,
-                y: 100,
-                goto: 9
+                goto: 9,
+                x: 1200,
+                y: 110
             },
             {
-                x: 100,
-                y: 100,
-                goto: 10
+                goto: 10,
+                x: 1530,
+                y: 110
             }
         ]
     },
     {
         id: 9,
-        backgroundUrl: '9-B.jpg',
+        backgroundUrl: 'assets/9-B.jpg',
         hitzones: [
             {
-                x: 33,
-                y: 100,
-                goto: 10
+                goto: 10,
+                x: 130,
+                y: 170
             },
             {
-                x: 66,
-                y: 100,
-                goto: 8
+                goto: 8,
+                x: 800,
+                y: 170
             }
         ]
     },
     {
         id: 10,
-        backgroundUrl: '10-top.jpg',
+        backgroundUrl: 'assets/10-top.jpg',
         hitzones: [
             {
-                x: 33,
-                y: 100,
-                goto: 8
+                goto: 8,
+                x: 565,
+                y: 110
             },
             {
-                x: 50,
-                y: 100,
-                goto: 9
+                goto: 9,
+                x: 910,
+                y: 110
             }
         ]
     }
